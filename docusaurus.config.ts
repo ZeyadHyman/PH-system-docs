@@ -77,9 +77,17 @@ const config: Config = {
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
+        // Your supported languages (match folder names in i18n)
+        language: ["en", "ar"],
+
+        // Whether to index docs
         indexDocs: true,
+
+        // Whether to index blog
+        indexBlog: false,
+
+        // Whether to index pages
         indexPages: true,
-        language: ["en", "ar"], // Supports English & Arabic
       },
     ],
   ],

@@ -1,44 +1,42 @@
 ---
 slug: long-blog-post
-title: Long Blog Post
+title: مقالة مدونة طويلة
 authors: yangshun
 tags: [hello, docusaurus]
 ---
 
-This is the summary of a very long blog post,
+هذا ملخص لمقالة مدونة طويلة جداً،
 
-Use a `<!--` `truncate` `-->` comment to limit blog post size in the list view.
+استخدم تعليق `<!--` `truncate` `-->` لتقييد حجم مقالة المدونة في عرض القائمة.
 
 <!-- truncate -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+لوريم إيبسوم دولار سيت أميت، كونسيكتيتور أدايبيسينج إليت. بيلينتيسكي إليمنتوم ديجنيسيم أولتريسيز. فوسي رونكوس إيبسوم تيمبور إيروس أليكام كونسيكوات. لوريم إيبسوم دولار سيت أميت

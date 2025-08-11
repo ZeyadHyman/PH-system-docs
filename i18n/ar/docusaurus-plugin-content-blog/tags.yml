@@ -1,19 +1,19 @@
 facebook:
-  label: Facebook
+  label: فيسبوك
   permalink: /facebook
-  description: Facebook tag description
+  description: وصف علامة فيسبوك
 
 hello:
-  label: Hello
+  label: مرحباً
   permalink: /hello
-  description: Hello tag description
+  description: وصف علامة مرحباً
 
 docusaurus:
-  label: Docusaurus
+  label: دوكوسورس
   permalink: /docusaurus
-  description: Docusaurus tag description
+  description: وصف علامة دوكوسورس
 
 hola:
-  label: Hola
+  label: هولا
   permalink: /hola
-  description: Hola tag description
+  description: وصف علامة هولا

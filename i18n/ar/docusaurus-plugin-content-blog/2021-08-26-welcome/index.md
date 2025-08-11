@@ -1,29 +1,29 @@
 ---
 slug: welcome
-title: Welcome
+title: مرحباً
 authors: [slorber, yangshun]
 tags: [facebook, hello, docusaurus]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+[ميزات مدونة Docusaurus](https://docusaurus.io/docs/blog) تعمل بواسطة [إضافة المدونة](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
 
-Here are a few tips you might find useful.
+إليك بعض النصائح التي قد تجدها مفيدة.
 
 <!-- truncate -->
 
-Simply add Markdown files (or folders) to the `blog` directory.
+ببساطة أضف ملفات Markdown (أو مجلدات) إلى مجلد `blog`.
 
-Regular blog authors can be added to `authors.yml`.
+يمكن إضافة كتاب المدونة العاديين إلى `authors.yml`.
 
-The blog post date can be extracted from filenames, such as:
+يمكن استخراج تاريخ مقالة المدونة من أسماء الملفات، مثل:
 
 - `2019-05-30-welcome.md`
 - `2019-05-30-welcome/index.md`
 
-A blog post folder can be convenient to co-locate blog post images:
+مجلد مقالة المدونة يمكن أن يكون مناسباً لوضع صور مقالة المدونة معاً:
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+![دمية Docusaurus](./docusaurus-plushie-banner.jpeg)
 
-The blog supports tags as well!
+المدونة تدعم العلامات أيضاً!
 
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+**وإذا كنت لا تريد مدونة**: فقط احذف هذا المجلد، واستخدم `blog: false` في إعدادات Docusaurus الخاصة بك.

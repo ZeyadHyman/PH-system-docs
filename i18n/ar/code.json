@@ -321,5 +321,11 @@
   "theme.tags.tagsPageTitle": {
     "message": "الوسوم",
     "description": "The title of the tag list page"
+  },
+  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": {
+    "message": "إلغاء"
+  },
+  "cmfcmf/d-s-l.searchBar.placeholder": {
+    "message": "ابحث هنا..."
   }
 }

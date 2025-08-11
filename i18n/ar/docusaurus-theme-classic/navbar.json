@@ -18,5 +18,13 @@
   "item.label.GitHub": {
     "message": "جيت هب",
     "description": "Navbar item with label GitHub"
+  },
+  "site.title": {
+    "message": "موقعي",
+    "description": "The site title"
+  },
+  "site.tagline": {
+    "message": "الديناصورات رائعة",
+    "description": "The site tagline"
   }
 }

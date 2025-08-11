@@ -1,0 +1,153 @@
+---
+sidebar_position: 4
+---
+
+# ميزات Markdown
+
+Docusaurus يدعم **[Markdown](https://daringfireball.net/projects/markdown/syntax)** وبعض **الميزات الإضافية**.
+
+## البيانات الوصفية
+
+مستندات Markdown لها بيانات وصفية في الأعلى تُسمى [Front Matter](https://jekyllrb.com/docs/front-matter/):
+
+```text title="my-doc.md"
+// highlight-start
+---
+id: my-doc-id
+title: عنوان مستندي
+description: وصف مستندي
+slug: /my-custom-url
+---
+// highlight-end
+
+## عنوان Markdown
+
+نص Markdown مع [روابط](./hello.md)
+```
+
+## الروابط
+
+الروابط العادية لـ Markdown مدعومة، باستخدام مسارات URL أو مسارات ملفات نسبية.
+
+```md
+دعنا نرى كيفية [إنشاء صفحة](/create-a-page).
+```
+
+```md
+دعنا نرى كيفية [إنشاء صفحة](./create-a-page.md).
+```
+
+**النتيجة:** دعنا نرى كيفية [إنشاء صفحة](./create-a-page.md).
+
+## الصور
+
+صور Markdown العادية مدعومة.
+
+يمكنك استخدام مسارات مطلقة للإشارة إلى الصور في المجلد الثابت (`static/img/docusaurus.png`):
+
+```md
+![شعار Docusaurus](/img/docusaurus.png)
+```
+
+![شعار Docusaurus](/img/docusaurus.png)
+
+يمكنك أيضاً الإشارة إلى الصور نسبياً للملف الحالي. هذا مفيد بشكل خاص لوضع الصور قريبة من ملفات Markdown التي تستخدمها:
+
+```md
+![شعار Docusaurus](./img/docusaurus.png)
+```
+
+## كتل الكود
+
+كتل كود Markdown مدعومة مع تمييز الصيغة.
+
+````md
+```jsx title="src/components/HelloDocusaurus.js"
+function HelloDocusaurus() {
+  return <h1>مرحباً، Docusaurus!</h1>;
+}
+```
+````
+
+```jsx title="src/components/HelloDocusaurus.js"
+function HelloDocusaurus() {
+  return <h1>مرحباً، Docusaurus!</h1>;
+}
+```
+
+## التنبيهات
+
+Docusaurus لديه صيغة خاصة لإنشاء التنبيهات والملاحظات:
+
+```md
+:::tip نصيحتي
+
+استخدم خيار الميزة الرائع هذا
+
+:::
+
+:::danger احذر
+
+هذا الإجراء خطير
+
+:::
+```
+
+:::tip نصيحتي
+
+استخدم خيار الميزة الرائع هذا
+
+:::
+
+:::danger احذر
+
+هذا الإجراء خطير
+
+:::
+
+## MDX ومكونات React
+
+[MDX](https://mdxjs.com/) يمكن أن يجعل توثيقك أكثر **تفاعلية** ويسمح باستخدام أي **مكونات React داخل Markdown**:
+
+```jsx
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      alert(`لقد نقرت على اللون ${color} مع التسمية ${children}`)
+    }}>
+    {children}
+  </span>
+);
+
+هذا هو <Highlight color="#25c2a0">الأخضر Docusaurus</Highlight> !
+
+هذا هو <Highlight color="#1877F2">الأزرق Facebook</Highlight> !
+```
+
+export const Highlight = ({ children, color }) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: "20px",
+      color: "#fff",
+      padding: "10px",
+      cursor: "pointer",
+    }}
+    onClick={() => {
+      alert(`لقد نقرت على اللون ${color} مع التسمية ${children}`);
+    }}
+  >
+    {children}
+  </span>
+);
+
+هذا هو <Highlight color="#25c2a0">الأخضر Docusaurus</Highlight> !
+
+هذا هو <Highlight color="#1877F2">الأزرق Facebook</Highlight> !
