@@ -1,0 +1,42 @@
+{
+  "link.title.Docs": {
+    "message": "التوثيق",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "المجتمع",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "المزيد",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "الدروس",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "ستاك أوفرفلو",
+    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/tagged/docusaurus"
+  },
+  "link.item.label.Discord": {
+    "message": "ديسكورد",
+    "description": "The label of footer link with label=Discord linking to https://discordapp.com/invite/docusaurus"
+  },
+  "link.item.label.X": {
+    "message": "إكس",
+    "description": "The label of footer link with label=X linking to https://x.com/docusaurus"
+  },
+  "link.item.label.Blog": {
+    "message": "المدونة",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "جيت هب",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
+  },
+  "copyright": {
+    "message": "حقوق النشر © 2025 مشروعي، Inc. تم إنشاؤه باستخدام Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

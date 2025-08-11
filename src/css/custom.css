@@ -1,0 +1,261 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3b82f6; /* Vibrant yet professional blue */
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-color-primary-lightest: #bfdbfe;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+:root:lang(ar) {
+  font-family: 'Cairo', 'Tajawal', sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa; /* Softer blue for dark mode */
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Enhanced DocSearch Button */
+.DocSearch-Button {
+  background: linear-gradient(135deg, #0d6efd 0%, #0056d2 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0.75rem 1.25rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 8px rgba(13, 110, 253, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  min-width: 250px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.DocSearch-Button:hover {
+  background: linear-gradient(135deg, #0056d2 0%, #004199 100%);
+  box-shadow: 0 4px 16px rgba(13, 110, 253, 0.3);
+  transform: translateY(-1px);
+}
+
+.DocSearch-Button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(13, 110, 253, 0.2);
+}
+
+.DocSearch-Button:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+/* Button text styling */
+.DocSearch-Button-Placeholder {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.DocSearch-Button-Keys {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.75rem;
+  backdrop-filter: blur(10px);
+}
+
+/* Enhanced Modal Container */
+.DocSearch-Container {
+  background: rgba(19, 33, 46, 0.95);
+  backdrop-filter: blur(20px);
+  color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.DocSearch-Modal {
+  background: linear-gradient(145deg, #1a2332 0%, #13212e 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* Enhanced Search Input */
+.DocSearch-SearchBar {
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+}
+
+.DocSearch-Input {
+  font-size: 1.1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid transparent;
+  border-radius: 12px;
+  color: white;
+  transition: all 0.3s ease;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.DocSearch-Input:focus {
+  outline: none;
+  border-color: #0d6efd;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.1);
+}
+
+.DocSearch-Input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Enhanced Search Results */
+.DocSearch-Dropdown {
+  background: transparent;
+  max-height: 400px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.DocSearch-Dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+
+.DocSearch-Dropdown::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.DocSearch-Dropdown::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.DocSearch-Hit {
+  margin: 0.25rem 0.75rem;
+}
+
+.DocSearch-Hit a {
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid transparent;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  text-decoration: none;
+}
+
+.DocSearch-Hit a:hover {
+  background: rgba(13, 110, 253, 0.15);
+  border-color: rgba(13, 110, 253, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.1);
+}
+
+.DocSearch-Hit[aria-selected="true"] a {
+  background: rgba(13, 110, 253, 0.2);
+  border-color: rgba(13, 110, 253, 0.4);
+}
+
+/* Hit content styling */
+.DocSearch-Hit-title {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.DocSearch-Hit-path {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+}
+
+/* Footer styling */
+.DocSearch-Footer {
+  background: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DocSearch-Commands {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.DocSearch-Commands kbd {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* No results state */
+.DocSearch-NoResults {
+  text-align: center;
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Loading state */
+.DocSearch-Loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .DocSearch-Button {
+    min-width: 200px;
+    padding: 0.625rem 1rem;
+  }
+  
+  .DocSearch-Modal {
+    margin: 1rem;
+    border-radius: 12px;
+  }
+  
+  .DocSearch-Input {
+    font-size: 1rem;
+    padding: 0.625rem 0.875rem;
+  }
+}
+
+/* Dark mode enhancements */
+@media (prefers-color-scheme: dark) {
+  .DocSearch-Button {
+    box-shadow: 0 2px 8px rgba(13, 110, 253, 0.3);
+  }
+  
+  .DocSearch-Container {
+    background: rgba(13, 21, 30, 0.98);
+  }
+}
