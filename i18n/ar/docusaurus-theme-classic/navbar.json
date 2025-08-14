@@ -1,8 +1,5 @@
 {
-  "title": {
-    "message": "دليل المستخدم",
-    "description": "The title in the navbar"
-  },
+
   "logo.alt": {
     "message": "شعار موقعي",
     "description": "The alt text of navbar logo"

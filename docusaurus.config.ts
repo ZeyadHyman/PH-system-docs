@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "PH System",
+  tagline: "PH System",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://ph-system-docs.vercel.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -93,11 +93,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
 
     navbar: {
-      title: "My Site",
       logo: {
         src: "img/light-logo.png",
         srcDark: "img/dark-logo.png",
@@ -117,11 +115,11 @@ const config: Config = {
         },
         {
           type: "localeDropdown",
-          position: "right", // Puts it on the right side
+          position: "right",
         },
         {
           type: "search",
-          position: "right", // Puts it on the right side
+          position: "right",
         },
       ],
     },
